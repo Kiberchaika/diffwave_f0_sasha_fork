@@ -17,6 +17,12 @@ from argparse import ArgumentParser
 from torch.cuda import device_count
 from torch.multiprocessing import spawn
 
+import sys
+sys.path.append("/home/k4/Python/Jingle_vocal/diffwave/src")
+
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+
 from diffwave.learner import train, train_distributed
 from diffwave.params import params
 

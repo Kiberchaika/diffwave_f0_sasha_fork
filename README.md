@@ -1,3 +1,9 @@
+# Форк оригинального DiffWave, для синтеза звука по f0
+Изменён энкодер и проектор кондишна. Вместо мелспектограммы для кондишна используются f0, энергия, класс и центроида
+![Image](./condition.jpg)
+
+Качество синтеза среднее
+
 # DiffWave
 ![PyPI Release](https://img.shields.io/pypi/v/diffwave?label=release) [![License](https://img.shields.io/github/license/lmnt-com/diffwave)](https://github.com/lmnt-com/diffwave/blob/master/LICENSE)
 

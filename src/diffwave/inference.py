@@ -20,6 +20,9 @@ import torchaudio
 
 from argparse import ArgumentParser
 
+import sys
+sys.path.append("/home/k4/Python/Jingle_vocal/diffwave/src")
+
 from diffwave.params import AttrDict, params as base_params
 from diffwave.model import DiffWave
 

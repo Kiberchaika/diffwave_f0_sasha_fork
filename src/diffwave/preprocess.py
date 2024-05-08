@@ -23,8 +23,10 @@ from concurrent.futures import ProcessPoolExecutor
 from glob import glob
 from tqdm import tqdm
 
-from diffwave.params import params
+import sys
+sys.path.append("/home/k4/Python/Jingle_vocal/diffwave/src")
 
+from diffwave.params import params
 
 def transform(filename):
   audio, sr = T.load(filename)
